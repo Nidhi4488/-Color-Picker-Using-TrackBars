@@ -32,7 +32,7 @@ while True:
     b=cv2.getTrackbarPos("B","Color Picker")
 
     if s==0:
-        img[:]=0
+        img[:]=0 #all the pixels of image
     else:
         img[:]=[r,g,b]
 cv2.destroyAllWindows()
